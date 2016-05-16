@@ -1,11 +1,11 @@
 {
-  "name": "codenamephp/imxplatformphp.core",
+  "name": "infomax/imxplatformphp.core",
   "type": "library",
   "license": "Apache-2.0",
   "authors": [
     {
       "name": "Bastian Schwarz",
-      "email": "bastian@codename-php.de"
+      "email": "schwarz@infomax-it.de"
     }
   ],
   "require": {
@@ -26,7 +26,7 @@
   },
   "autoload-dev": {
     "psr-0": {
-      "de\\codenamephp\\": ["src/main/php", "src/test/php"],
+      "de\\imxnet\\": ["src/main/php", "src/test/php"],
       "": "vendor/pdepend/pdepend/src/main/php"
     }
   },
