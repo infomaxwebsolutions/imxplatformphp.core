@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2014 Bastian Schwarz <bastian@codename-php.de>.
+ * Copyright 2015 Bastian Schwarz <bastian@codename-php.de>.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,16 +14,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 /**
  * @namespace
  */
-
 namespace de\imxnet\platformphp\core;
 
 /**
+ * Base exception from which all other exceptions should extend.
  *
  * @author Bastian Schwarz <bastian@codename-php.de>
  */
-class TestCase extends \de\codenamephp\platform\test\TestCase {
+class Exception extends \Exception {
 //put your code here
 }
